@@ -1,0 +1,13 @@
+int charstackmain();
+void infixtopostfix(char a[],char x[]);
+void infixtoprefix(char a[],char x[]);
+int integerstackmain();
+int pop(int a[],int *top);
+char popc(char a[],int *top);
+void postfixtoinfix(char a[],int y[]);
+void postfixtoprefix(char a[],int y[]);
+int push(int a[],int *top,int x);
+int pushc(char a[],int *top,char x);
+int pushtop(int a[],int *top);
+char pushtopc(char a[],int *top);
+int priority(char a);
